@@ -1,0 +1,107 @@
+/* My stylesheet starts */
+.wrapper {
+  width: 700px;
+  margin: auto
+}
+
+body {
+  background-color: white;
+}
+
+/* headings */
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 64px;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+ 
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: #141712;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Images of me */
+img {
+  border: 1px solid #CED0CE;
+  border-radius: 4px;
+  padding: 1px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Smaller headings */
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #141712;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #141712;
+  text-align: center;
+}
+
+/* My paragraphs and lists */
+p, li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
+/* Pseudo-classes */
+a:link {
+  color: blue;
+}
+
+/* visited */
+a:visited {
+  color: purple;
+}
+
+/* hoover over */
+a:hover {
+  color: blueviolet;
+}
+
+/* Groups and Items */
+.group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color:black;
+  height: 25px;
+  padding-top: 5px;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
